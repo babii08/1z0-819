@@ -1,0 +1,503 @@
+Date: Tue, 4 Oct 2022 20:40:28 +0000 (UTC)
+Message-ID: <408577021.19.1664916028436@f484b2b06eb4>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_18_704399284.1664916028435"
+
+------=_Part_18_704399284.1664916028435
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Chapter 3 - Operators</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Chapter 3 - Operators</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"Chapter3-Operators-Operatorprecedence"><strong>Operator p=
+recedence</strong></h3>
+<div class=3D"table-wrap">
+<table data-layout=3D"default" data-local-id=3D"eac0954f-ab19-4b50-b478-5af=
+a0edce895" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 340.0px;">
+<col style=3D"width: 340.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Operator</p=
+></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Symbols and=
+ examples</p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Post-unary =
+operators</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>expre=
+ssion++</code>, <code>expression--</code></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Pre-unary o=
+perators</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>++exp=
+ression</code>, <code>--expression</code></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Other unary=
+ operators</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>-</co=
+de>, <code>!</code>, <code>~</code>, <code>+</code>, <code>(type)</code></p=
+></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Multiplicat=
+ion/division/modulus</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>*</co=
+de>, <code>/</code>, <code>%</code></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Addition/su=
+btraction</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>+</co=
+de>, <code>-</code></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Shift opera=
+tors</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>&lt;&=
+lt;</code>, <code>&gt;&gt;</code>, <code>&gt;&gt;&gt;</code></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Relational =
+operators</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>&lt;<=
+/code>, <code>&gt;</code>, <code>&lt;=3D</code>, <code>&gt;=3D</code>, <cod=
+e>instanceof</code></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Equal to/no=
+t equal to</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>=3D=
+=3D</code>, <code>!=3D</code></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Logical ope=
+rators</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>&amp;=
+</code>, <code>^</code>, <code>|</code></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Short-circu=
+it logical operators</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>&amp;=
+&amp;</code>, <code>||</code></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Ternary ope=
+rators</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>boole=
+an</code> <code>expression</code> <code>?</code> <code>expression1</code> <=
+code>:</code> <code>expression2</code></p></td>
+</tr>
+<tr>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p>Assignment =
+operators</p></td>
+<td data-highlight-colour=3D"inherit" class=3D"confluenceTd"><p><code>=3D</=
+code>, <code>+=3D</code>, <code>-=3D</code>, <code>*=3D</code>, <code>/=3D<=
+/code>, <code>%=3D</code>, <code>&amp;=3D</code>, <code>^=3D</code>, <code>=
+|=3D</code>, <code>&lt;&lt;=3D</code>, <code>&gt;&gt;=3D</code>, <code>&gt;=
+&gt;&gt;=3D</code></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id=3D"Chapter3-Operators-IncrementandDecrementOperators">Increment and =
+Decrement Operators</h3>
+<p>Increment and decrement operators, <code>++</code> and <code>--</code>, =
+respectively, can be applied to numeric variables and have a high order of =
+precedence, as compared to binary operators. In other words, they often get=
+ applied first in an expression.</p>
+<p></p>
+<p>One common practice in a certification exam, albeit less common in the r=
+eal world, is to apply multiple increment or decrement operators to a singl=
+e variable on the same line:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int lio=
+n =3D 3;
+int tiger =3D ++lion * 5 / lion--;
+System.out.println("lion is " + lion);
+System.out.println("tiger is " + tiger);</pre>=20
+</div>
+</div>
+<p>This one is more complicated than the previous example because <code>lio=
+n</code> is modified two times on the same line. Each time it is modified, =
+the value of <code>lion</code> changes, with different values being assigne=
+d to the variable. As you=E2=80=99ll recall from our discussion on operator=
+ precedence, order of operation plays an important part in evaluating this =
+example.</p>
+<p>So how do you read this code? First, <code>lion</code> is decremented. W=
+e can simplify this:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int tig=
+er =3D ++lion * 5 / 3; // lion assigned value of 2</pre>=20
+</div>
+</div>
+<p>Next, <code>lion</code> is incremented with the new value of 3 used in t=
+he expression, leading to this:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int tig=
+er =3D 3 * 5 / 3; // lion assigned value of 3</pre>=20
+</div>
+</div>
+<p></p>
+<p>Java, unlike some other programming languages, does not allow brackets, =
+<code>[]</code>, to be used in place of parentheses.</p>
+<p></p>
+<p>Be sure to understand the difference between arithmetic division and mod=
+ulus. For integer values, division results in the floor value of the neares=
+t integer that fulfills the operation, whereas modulus is the remainder val=
+ue. If you hear the phrase <em>floor value</em>, it just means the value wi=
+thout anything after the decimal point. For example, the floor value is&nbs=
+p;<code>4</code> for each of the values <code>4.0</code>, <code>4.5</code>,=
+ and <code>4.9999999</code>. Unlike rounding, which we=E2=80=99ll cover in =
+<u><a href=3D"https://learning.oreilly.com/library/view/ocp-oracle-certifie=
+d/9781119619130/c05.xhtml" class=3D"external-link" rel=3D"nofollow">Chapter=
+ 5</a></u>, you just take the value before the decimal point, regardless of=
+ what is after the decimal point.</p>
+<p></p>
+<h4 id=3D"Chapter3-Operators-NumericPromotionRules">Numeric Promotion Rules=
+</h4>
+<ol>
+<li><p>If two values have different data types, Java will automatically pro=
+mote one of the values to the larger of the two data types.</p><p>If one of=
+ the values is integral and the other is floating-point, Java will automati=
+cally promote the integral value to the floating-point value=E2=80=99s data=
+ type.</p><p>Smaller data types, namely, <code>byte</code>, <code>short</co=
+de>, and <code>char</code>, are first promoted to <code>int</code> any time=
+ they=E2=80=99re used with a Java binary arithmetic operator, even if neith=
+er of the operands is <code>int</code>.</p><p>After all promotion has occur=
+red and the operands have the same data type, the resulting value will have=
+ the same data type as its promoted operands.</p></li>
+</ol>
+<p></p>
+<p>What is the data type of <code>w * x / y</code>?</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">short w=
+ =3D 14;
+float x =3D 13;
+double y =3D 30;
+var z =3D w * x / y;</pre>=20
+</div>
+</div>
+<p>In this case, we must apply all of the rules. First, <code>w</code> will=
+ automatically be promoted to <code>int</code> solely because it is a <code=
+>short</code> and it is being used in an arithmetic binary operation. The p=
+romoted <code>w</code> value will then be automatically promoted to a <code=
+>float</code> so that it can be multiplied with <code>x</code>. The result =
+of <code>w * x</code> will then be automatically promoted to a <code>double=
+</code> so that it can be divided by <code>y</code>, resulting in a <code>d=
+ouble</code> value.</p>
+<p></p>
+<p>The exam creators are fond of inserting the assignment operator (<code>=
+=3D</code>) in the middle of an expression and using the value of the assig=
+nment as part of a more complex expression. For example, don=E2=80=99t be s=
+urprised if you see an <code>if</code> statement on the exam similar to the=
+ following:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">boolean=
+ healthy =3D false;
+if(healthy =3D true)
+   System.out.print("Good!");</pre>=20
+</div>
+</div>
+<p>While this may look like a test if <code>healthy</code> is <code>true</c=
+ode>, it=E2=80=99s actually assigning <code>healthy</code> a value of <code=
+>true</code>. The result of the assignment is the value of the assignment, =
+which is <code>true</code>, resulting in this snippet printing <code>Good!<=
+/code>. We=E2=80=99ll cover this in more detail in the upcoming =E2=80=9CEq=
+uality Operators=E2=80=9D section.</p>
+<p></p>
+<p>The equality operators are used in one of three scenarios:</p>
+<ul>
+<li><p>Comparing two numeric or character primitive types. If the numeric v=
+alues are of different data types, the values are automatically promoted. F=
+or example, <code>5 =3D=3D 5.00</code> returns <code>true</code> since the =
+left side is promoted to a <code>double</code>.</p><p>Comparing two <code>b=
+oolean</code> values</p><p>Comparing two objects, including <code>null</cod=
+e> and <code>String</code> values</p></li>
+</ul>
+<p></p>
+<h4 id=3D"Chapter3-Operators-NumericComparisonOperators">Numeric Comparison=
+ Operators</h4>
+<p>The first four relational operators in <u><a href=3D"https://learning.or=
+eilly.com/library/view/ocp-oracle-certified/9781119619130/c03.xhtml#table3-=
+7" class=3D"external-link" rel=3D"nofollow">Table 3.7</a></u> apply only to=
+ numeric values. If the two numeric operands are not of the same data type,=
+ the smaller one is promoted as previously discussed.</p>
+<p>Let=E2=80=99s look at examples of these operators in action:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">int gib=
+bonNumFeet =3D 2, wolfNumFeet =3D 4, ostrichNumFeet =3D 2;
+System.out.println(gibbonNumFeet &lt; wolfNumFeet);      // true
+System.out.println(gibbonNumFeet &lt;=3D wolfNumFeet);     // true
+System.out.println(gibbonNumFeet &gt;=3D ostrichNumFeet);  // true
+System.out.println(gibbonNumFeet &gt; ostrichNumFeet);   // false</pre>=20
+</div>
+</div>
+<p></p>
+<p></p>
+<h5 id=3D"Chapter3-Operators-Invalidinstanceof">Invalid <em>instanceof</em>=
+</h5>
+<p>One area the exam might try to trip you up on is using <code>instanceof<=
+/code> with incompatible types. For example, <code>Number</code> cannot pos=
+sibly hold a <code>String</code> value, so the following would cause a comp=
+ilation error:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: java; gutter: false; theme: Confluence" data-theme=3D"Confluence">public =
+static void openZoo(Number time) {
+   if(time instanceof String) // DOES NOT COMPILE
+   ...</pre>=20
+</div>
+</div>
+<p>It gets even more complicated as the previous rule applies to classes, b=
+ut not interfaces. Don=E2=80=99t worry if this is all new to you; we will g=
+o into more detail when we discuss polymorphism in <u><a href=3D"https://le=
+arning.oreilly.com/library/view/ocp-oracle-certified/9781119619130/c09.xhtm=
+l" class=3D"external-link" rel=3D"nofollow">Chapter 9</a></u>, =E2=80=9CAdv=
+anced Class Design.=E2=80=9D</p>
+    </div>
+</body>
+</html>
+------=_Part_18_704399284.1664916028435--
